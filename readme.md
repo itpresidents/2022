@@ -1,3 +1,3 @@
 # compile css to scss
-sass source/index.scss build/index.css
+sass source/main.scss build/main.css
 sass --watch source/main.scss:build/main.css

@@ -15,6 +15,7 @@ for (let i = 0; i < iframes.length; i++) {
         xhr.onload = function() {
             // display response
             d.innerHTML = xhr.responseText;
+            d.style.fontSize = '.4em'
         };
         xhr.send();
     }

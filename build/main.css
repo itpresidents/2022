@@ -1,23 +1,3 @@
-html {
-  height: 100%;
-  font-family: "Roboto Mono", monospace;
-}
-html a {
-  color: #9e3784;
-}
-html a:visited {
-  color: #9e3784;
-}
-html h1 h2 li {
-  font-family: "Roboto Mono", monospace;
-}
-html h1 h2 li a {
-  color: black;
-}
-html h1 h2 li a:visited {
-  color: black;
-}
-
 body {
   width: 960px;
   margin: 0 auto;
@@ -51,6 +31,54 @@ body {
 iframe {
   width: 100%;
   height: 100%;
+}
+
+html {
+  height: 100%;
+  font-family: "Roboto Mono", monospace;
+}
+html a {
+  color: #9e3784;
+}
+html a:visited {
+  color: #9e3784;
+}
+html h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2em;
+  line-height: normal;
+  padding: 0;
+}
+html h1 a {
+  color: black;
+}
+html h1 a:visited {
+  color: black;
+}
+html h2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1em;
+  line-height: normal;
+  padding: 0;
+}
+html h2 a {
+  color: black;
+}
+html h2 a:visited {
+  color: black;
+}
+html li {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.9em;
+  line-height: normal;
+  padding: 0;
+  font-style: bold;
+}
+html li a {
+  color: #9e3784;
+}
+html li a:visited {
+  color: #9e3784;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -88,6 +116,9 @@ iframe {
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+  }
+  .topnav li {
+    font-size: 0.1em;
   }
   .content {
     width: 100%;
